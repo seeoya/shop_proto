@@ -17,10 +17,20 @@ function Main() {
 }
 
 function Banner(props) {
-    if (props.type == "main") {
-        return <div className="main-banner">메인 배너</div>;
-    } else if (props.type == "sub") {
-        return <div className="sub-banner">서브 배너</div>;
+    let { type } = props;
+
+    if (type == "main") {
+        return (
+            <div className="slide-banner main">
+                <img src="./img/suit.jpg" alt="" />
+            </div>
+        );
+    } else if (type == "sub") {
+        return (
+            <div className="slide-banner sub">
+                <img src="./img/coffee.jpg" alt="" />
+            </div>
+        );
     }
 }
 

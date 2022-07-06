@@ -12,11 +12,11 @@
 }
 
 html {
-    font-size: 6.25%;
+    font-size: 62.5%;
 }
 
 body {
-    font-size: 16rem;
+    font-size: 1.6rem;
     line-height: 1;
 }
 
@@ -52,6 +52,10 @@ a:hover {
     width: 0px;
     height: 0px;
     text-indent: -9999rem;
+}
+
+.link {
+    cursor: pointer;
 }
 
 .pc-only {
